@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Registration</h1>
+
+        <form>
+
+            <label>Full Name: *</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email: *</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password: *</label>
+            <input type="password" placeholder="Enter password" required>
+
+            <label>Date of Birth:</label>
+            <input type="date">
+
+            <label>Gender: *</label>
+            <input type="radio" name="gender" required> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+
+            <label>Course: *</label>
+            <select required>
+                <option value="">Select Course</option>
+                <option>AI & DS</option>
+                <option>CMPN</option>
+                <option>IT</option>
+            </select>
+
+            <label>Hobbies:</label>
+            <input type="checkbox"> Reading
+            <input type="checkbox"> Music
+            <input type="checkbox"> Sports
+
+            <label>Address:</label>
+            <textarea rows="3" placeholder="Enter your address"></textarea>
+
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+
+            <p class="note">* Fields are compulsory</p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
