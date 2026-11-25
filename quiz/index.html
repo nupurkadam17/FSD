@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pop Culture Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Pop Culture Trivia Quiz</h2>
+
+        <form id="quizForm">
+
+            <p>1. Which band released the song Night Changes?</p>
+            <input type="radio" name="q1" value="a"> One Direction<br>
+            <input type="radio" name="q1" value="b"> Coldplay<br>
+            <input type="radio" name="q1" value="c"> Maroon 5<br>
+
+            <p>2. What is the name of Rory's hometown in Gilmore Girls?</p>
+            <input type="radio" name="q2" value="a"> Hartford<br>
+            <input type="radio" name="q2" value="b"> Stars Hollow<br>
+            <input type="radio" name="q2" value="c"> New Haven<br>
+
+            <p>3. What is the name of the robot in Interstellar?</p>
+            <input type="radio" name="q3" value="a"> TARS<br>
+            <input type="radio" name="q3" value="b"> HAL<br>
+            <input type="radio" name="q3" value="c"> CASE<br>
+
+            <br>
+            <button type="button" onclick="checkAnswers()">Submit</button>
+
+        </form>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
